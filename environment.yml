@@ -1,0 +1,20 @@
+name: prometa-rnaseq
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - jupyterlab
+  - ipykernel
+  - sra-tools
+  - trim-galore
+  - fastqc
+  - salmon=1.10.3
+  - pigz
+  - r-base
+  - bioconductor-tximport
+  - bioconductor-deseq2
+  - r-readr
+  - r-dplyr

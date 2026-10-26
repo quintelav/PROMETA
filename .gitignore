@@ -1,0 +1,31 @@
+# Dados brutos de sequenciamento
+sra_bruto/
+raw_data/
+*.sra
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Referências e resultados de quantificação
+reference/
+quant/
+qc/
+logs/
+tmp/
+results/
+run_status.csv
+metadata_processado.csv
+*_DESeq2*.csv
+
+# Arquivos temporários de análise
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+.RData
+
+# Configurações locais e segredos
+.env
+.env.*
+!.env.example
