@@ -185,9 +185,6 @@ A divulgação do PROMETA deve incluir scripts, metadados compatíveis com compa
 
 O caso agrícola demonstra o fluxo em um sistema biológico concreto. Sua adaptação a outras pragas, culturas ou perguntas de bioinformática exigirá revisar a pergunta, os metadados, a referência, o desenho experimental, os modelos e os critérios de validação. O PROMETA não será descrito como validado para saúde humana, câncer ou outras doenças sem aplicações independentes nesses contextos.
 
-## Texto-base para descrever o framework no artigo
-
-O PROMETA foi organizado com base nas seis fases do CRISP-DM: compreensão do problema científico, compreensão dos dados, preparação dos dados, modelagem, avaliação e implantação/comunicação. O CRISP-DM foi utilizado para sistematizar as decisões analíticas e documentar os produtos e critérios de cada fase. O framework foi demonstrado por meio da reanálise de bibliotecas públicas de RNA-seq de *Phthorimaea absoluta* exposta a três grupos de inseticidas. As leituras foram processadas e quantificadas com ferramentas de bioinformática; as quantificações foram importadas para R com tximport e analisadas por grupo com DESeq2. Em seguida, os genes diferencialmente expressos foram classificados por direção e sintetizados por um score de recorrência para priorizar candidatos compartilhados entre os grupos. A avaliação considerou a qualidade dos dados, a adequação dos contrastes, a consistência dos resultados e as limitações dos estudos públicos. Os candidatos foram interpretados como resultados computacionais sujeitos a validação biológica posterior.
 
 ## Glossário
 
