@@ -57,3 +57,7 @@ Abra a pasta no VS Code a partir do WSL e selecione o kernel **Python (PROMETA R
 Cada linha do CSV representa um run/amostra. Confirme que os runs correspondem a réplicas biológicas independentes e que cada estudo tem controles compatíveis antes de interpretar DESeq2 ou integrar resultados. Diferenças entre estudos não são corrigidas automaticamente apenas por aplicar PCA ou calcular métricas de recorrência.
 
 Os transcritos priorizados são **candidatos computacionais**. A análise não demonstra causalidade nem valida biomarcadores experimentalmente. Dados brutos e arquivos intermediários são volumosos e devem ser armazenados fora do Git quando necessário; versionem-se os scripts, metadados apropriados e parâmetros, sem incluir dados restritos ou credenciais.
+
+## Estrutura metodológica
+
+A organização do projeto segundo o CRISP-DM está detalhada em [docs/CRISP-DM_PROMETA.md](docs/CRISP-DM_PROMETA.md). O documento registra o fluxo, os artefatos por fase, o estado atual e as decisões metodológicas em aberto.

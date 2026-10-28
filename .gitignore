@@ -29,3 +29,6 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# Arquivo local de inscrições, fora do escopo do repositório
+Inscricoes_ordenadas_por_nota.txt
