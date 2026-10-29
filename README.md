@@ -58,6 +58,6 @@ Cada linha do CSV representa um run/amostra. Confirme que os runs correspondem a
 
 Os transcritos priorizados são **candidatos computacionais**. A análise não demonstra causalidade nem valida biomarcadores experimentalmente. Dados brutos e arquivos intermediários são volumosos e devem ser armazenados fora do Git quando necessário; versionem-se os scripts, metadados apropriados e parâmetros, sem incluir dados restritos ou credenciais.
 
-## Estrutura metodológica
+## Manual operacional
 
-A organização do projeto segundo o CRISP-DM está detalhada em [docs/CRISP-DM_PROMETA.md](docs/CRISP-DM_PROMETA.md). O documento registra o fluxo, os artefatos por fase, o estado atual e as decisões metodológicas em aberto.
+Consulte o [manual em Markdown](docs/CRISP-DM_PROMETA.md) ou baixe a [versão em Word](docs/CRISP-DM_PROMETA.docx) para implementar e executar o PROMETA segundo o ciclo CRISP-DM. O manual reúne procedimentos, ferramentas, verificações, produtos e decisões pendentes por fase.

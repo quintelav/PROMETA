@@ -27,12 +27,20 @@ else
   exit 1
 fi
 
-mkdir -p "$PROJECT_DIR" "$PROJECT_DIR/reference"
+mkdir -p "$PROJECT_DIR" "$PROJECT_DIR/reference" "$PROJECT_DIR/docs"
 for file in projeto_paralelo_vitor_quintela.ipynb prometa_pipeline.py analise_diferencial.R analise_meta_bono.py environment.yml setup_wsl.sh README.md README_WSL.md; do
   if [[ -f "$WINDOWS_PROJECT/$file" ]]; then
     cp -f "$WINDOWS_PROJECT/$file" "$PROJECT_DIR/$file"
   else
     echo "Arquivo do projeto ausente: $WINDOWS_PROJECT/$file" >&2
+    exit 1
+  fi
+done
+for file in CRISP-DM_PROMETA.md CRISP-DM_PROMETA.docx; do
+  if [[ -f "$WINDOWS_PROJECT/docs/$file" ]]; then
+    cp -f "$WINDOWS_PROJECT/docs/$file" "$PROJECT_DIR/docs/$file"
+  else
+    echo "Manual operacional ausente: $WINDOWS_PROJECT/docs/$file" >&2
     exit 1
   fi
 done
